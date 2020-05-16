@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Something</title>
+        <title id="title">Something</title>
         <link rel="stylesheet" href="index.css"/>
     </head>
     <body>
-        <h1>It works</h1>
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+        <form class="js-form form">
+            <input type="text" placeholder="이름이 머임?"/>
+        </form>
+        <form class="toDoForm">
+            <input type="text" placeholder="먼가를 적음"/>
+        </form>
+        <ul class="toDoList">
+
+        </ul>
+        <h1 class="greeting">Greeting</h1>
+        <script src="index.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
     </body>
 </html>
